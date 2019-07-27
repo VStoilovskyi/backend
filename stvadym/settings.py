@@ -26,9 +26,7 @@ SECRET_KEY = '%amde(lpn@%5i%gcmv(-i%u!z^(h7$a*^+(-02*las4)c8%kz+'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1',
-    '127.0.0.1:4200',
-    'localhost',
+    '*'
 ]
 
 CORS_ORIGIN_WHITELIST = [
