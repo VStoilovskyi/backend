@@ -26,11 +26,11 @@ SECRET_KEY = '%amde(lpn@%5i%gcmv(-i%u!z^(h7$a*^+(-02*las4)c8%kz+'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '*'
+    'https://stvadymback.herokuapp.com'
 ]
 
 CORS_ORIGIN_WHITELIST = [
-    "https://example.com",
+    "https://stvadymfront.herokuapp.com/",
     "https://sub.example.com",
     "http://localhost:4200",
     "http://127.0.0.1:9000"
