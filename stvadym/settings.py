@@ -27,7 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'https://stvadymback.herokuapp.com',
-    'https://stvadymfront.herokuapp.com'
+    'https://stvadymfront.herokuapp.com',
+    'stvadymback.herokuapp.com',
+    'stvadymfront.herokuapp.com'
 ]
 
 CORS_ORIGIN_WHITELIST = [
