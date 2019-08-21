@@ -29,14 +29,15 @@ ALLOWED_HOSTS = [
     'https://stvadymback.herokuapp.com',
     'https://stvadymfront.herokuapp.com',
     'stvadymback.herokuapp.com',
-    'stvadymfront.herokuapp.com'
+    'stvadymfront.herokuapp.com',
+    '127.0.0.1'
 ]
 
 CORS_ORIGIN_WHITELIST = [
-    "https://stvadymfront.herokuapp.com/",
+    "https://stvadymfront.herokuapp.com",
     "https://stvadymback.herokuapp.com",
     "http://localhost:4200",
-    "http://127.0.0.1:9000"
+    "http://127.0.0.1"
 ]
 
 
@@ -51,6 +52,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
+    '.restapp',
 ]
 
 MIDDLEWARE = [
@@ -92,8 +94,8 @@ WSGI_APPLICATION = 'stvadym.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'dbstvadym',
-        'HOST': 'mongodb+srv://root:Qwerty11@dbstvadym-s2h6q.mongodb.net/test?retryWrites=true&w=majority',
+        'NAME': 'devstvadym',
+        'HOST': 'mongodb+srv://root:Qwerty11@devstvadym-a7vs3.gcp.mongodb.net/test?retryWrites=true&w=majority',
         'USER': 'root',
         'PASSWORD': 'Qwerty11'
     }
