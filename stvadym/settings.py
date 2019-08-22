@@ -37,7 +37,8 @@ CORS_ORIGIN_WHITELIST = [
     "https://stvadymfront.herokuapp.com",
     "https://stvadymback.herokuapp.com",
     "http://localhost:4200",
-    "http://127.0.0.1"
+    "http://127.0.0.1",
+    'http://127.0.0.1:3000'
 ]
 
 
