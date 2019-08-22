@@ -53,7 +53,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'stvadym.restapp',
-    'rest_framework_simplejwt.token_blacklist',
 ]
 
 MIDDLEWARE = [
